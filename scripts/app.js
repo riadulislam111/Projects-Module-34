@@ -118,3 +118,14 @@
 // }
 
 // firstFunction();
+
+
+// function outerFn() {
+//     const secret = 10;
+//     function innerFn() {
+//         console.log(secret);
+//     }
+// return innerFn;
+// }
+// const myFn = outerFn();
+// myFn();
