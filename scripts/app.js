@@ -32,3 +32,89 @@
 // // Later calls: Fast (cached location)
 // getX({ x: 2 });  
 
+////////
+
+
+// const a =  10;
+
+// const first = () => {
+//     second();
+//     console.log("hello i am form first");
+// }
+
+// const second = () => {
+//     third();
+//     console.log("hello i am form second");
+// }
+
+// const third = () => {
+//     console.log("hello i am form third");
+// }
+
+
+// const b = 20;
+// first();
+// console.log("hello i am form last");
+
+
+// var x = 10;
+
+// function foo(y) {
+//     var z = 20;
+//     return x + y + z;
+// }
+// var result = foo(5);
+// console.log(result);
+
+
+
+// console.log(b);
+// let b = 20;
+
+
+
+// function outer() {
+//     let x = 10;
+//     return function inner() {
+//         console.log(x);
+//     };
+
+// }
+// const innerFn = outer();
+// innerFn();
+
+
+// const obj = {
+//     name: "Alice",
+//     greet: function() {
+//         console.log(this.name);
+//     }
+// };
+// obj.greet(); 
+
+
+// function countdown(n) {
+//     if (n === 0) return;
+//     console.log(n);
+//     countdown(n -1);
+// }
+// countdown(100);
+
+
+// function firstFunction() {
+//     console.log("First function called");
+//     secondFunction();
+//     console.log("First function ended");
+// }
+
+// function secondFunction() {
+//     console.log("Second function called");
+//     thirdFunction();
+//     console.log("Second function ended");
+// }
+
+// function thirdFunction() {
+//     console.log("Third function called");
+// }
+
+// firstFunction();
