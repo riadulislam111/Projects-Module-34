@@ -228,3 +228,55 @@
 // fetchData()
 //     .then(res => console.log(res))  // Success case
 //     .catch(err => console.log("Error: ", err));  // Error case
+
+
+
+
+// function orderFurniture(furniture) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             if (furniture === "chair") {
+//                 resolve("i'm successfully ordered a chair");
+//             } else if (furniture === "table") {
+//                 reject("i'm failed to order a table");
+//             }else {
+//                 reject("onjana asbap potro")
+//             }
+//         }, 2000);
+//     }
+//     )
+// }
+// orderFurniture("chair")
+// .then(respose => {
+//     console.log(respose);
+// })
+// .then(error => {
+//     console.log(error);
+// })
+
+
+// function orderFurniture(furniture) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             if (furniture === "chair") {
+//                 resolve("I'm successfully ordered a chair");
+//             }else if (furniture === "table") {
+//                 reject("i'm failed to order a table");
+//             }else {
+//                 reject("o jana asbab portro");
+//             }
+        
+            
+//         }, 2000);
+//     })
+// }
+
+// orderFurniture("chair")
+// .then(response  => {
+// console.log(response);
+// })
+// .catch(error => {
+//     console.log(error);
+// });
+
+
