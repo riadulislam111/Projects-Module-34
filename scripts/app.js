@@ -9,3 +9,13 @@
 
 // console.log("End");
 
+
+
+console.log("hero")
+console.log("hero");
+console.log("hero");
+
+function sum(){
+    console.log("hiii")
+}
+sum();
