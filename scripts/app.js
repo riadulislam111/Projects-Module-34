@@ -11,11 +11,11 @@
 
 
 
-console.log("hero")
-console.log("hero");
-console.log("hero");
+// console.log("hero")
+// console.log("hero");
+// console.log("hero");
 
-function sum(){
-    console.log("hiii")
-}
-sum();
+// function sum(){
+//     console.log("hiii")
+// }
+// sum();
