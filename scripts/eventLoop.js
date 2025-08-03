@@ -167,3 +167,123 @@
 // clearTimeout(timeoutID);
 
 
+// setTimeout(() => {
+//     console.log("This runs after 2 seconds (once)");
+// }, 2000);
+
+
+// setInterval(() => {
+//     console.log("This runs every 3 seconds");
+//    
+// }, 3000);
+
+
+
+// function regularFunction() {
+//     console.log("step 1");
+//     console.log("step 2");
+//     console.log("step 3");
+// }
+
+// regularFunction();
+
+
+// async function asyncFunction() {
+//     console.log("Step 1");
+//     await someAsyncOperation();
+//     console.log("Step 2");
+    
+// }
+
+// asyncFunction();
+
+
+// async function asyncFunction() {
+//   console.log("Step 1");
+//   await someAsyncOperation();  // Pause here until promise resolves
+//   console.log("Step 2");
+// }
+
+// asyncFunction();  // Executes Step 1, waits for async operation, then Step 2
+
+
+// function regularFunction() {
+//     return "Hello!";
+// }
+// const result = regularFunction();
+// console.log(result);
+
+
+
+
+// async function asyncError() {
+//     throw new Error("Something went wrong!");
+// }
+
+// asyncError()
+// .catch(err => console.log(err));
+
+
+// function fetchData() {
+//     fetch('https://jsonplaceholder.typicode.com/todos/1')
+//     .then(res => res.json())
+//     .then(data => console.log(data))
+//     .catch(err => console.error(err));
+// }
+
+// fetchData();
+
+
+// async function fetchData() {
+//     try {
+//         const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+//         const data = await response.json();
+//         console.log(data);
+//     } catch (error) {
+//         console.error(error);
+//     }
+// }
+
+// fetchData();
+
+
+// function example() {
+//     try{
+//         throw new Error("Something went wrong");
+//     }catch(err) {
+//         console.log("Caught an error:", err);
+//     }
+// }
+
+// example();
+
+
+// fetchData()
+// .then(result => console.log(result))
+// .catch(error => console.log("Error:", error));
+
+
+// async function fetchData() {
+//     try {
+//         const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+//         const data = await response.json();
+//         console.log(data);
+//     }catch (error) {
+//         console.log("Caught an error:", error);
+//     }
+// }
+
+// fetchData();
+
+
+
+// function blockingFunction() {
+//     console.log("Start");
+
+//     for (let i = 0; i < 1e9; i++) {}
+//     console.log("End");
+// }
+
+// blockingFunction();
+
+
