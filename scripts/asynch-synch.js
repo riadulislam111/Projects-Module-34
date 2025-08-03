@@ -105,3 +105,173 @@
 
 
 
+// async function orderFood() {
+//     const food = await cookFood();
+
+//     console.log("Food is ready!");
+//     console.log(food);
+// }
+
+// function cookFood() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve("Delicious food!");
+//         }, 2000);
+//     });
+// }
+
+// orderFood()
+
+
+
+// async function orderFood() {
+//     const food = await cookFood();
+//     const drink = await orderDrink();
+
+//     console.log("Food is ready!");
+//     console.log(food);
+//     console.log("Drink is ready!");
+//     console.log(drink);
+// }
+
+
+// function cookFood() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve("Delicious food!");
+//         }, 2000);
+//     });
+// }
+
+
+// function orderDrink() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve("Delicious food!");
+//         }, 2000);
+//     });
+// }
+
+// function orderDrink() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve("Tasty drink!");
+//         }, 3000);
+//     });
+// }
+
+// orderFood();
+
+
+
+// async function orderFood() {
+//     try {
+//         const food = await cookFood();
+//         console.log("Food is ready!");
+//         console.log(food);
+//     } catch (error) {
+//         console.log("Error while cooking food:", error);
+//     }
+    
+// }
+
+// function cookFood() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             reject("Something went wrong while cooking food!");
+//         }, 2000);
+//     });
+// }
+
+// orderFood();
+
+
+// async function  orderFood() {
+//     const food = await cookFood();
+//     console.log("Food is ready!");
+//     console.log(food);
+// }
+
+// function cookFood() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve("Delicious food!");
+//         }, 2000);
+//     });
+// }
+
+// orderFood();
+
+
+// async function orderFood() {
+//     const food = await cookFood();
+//     const drink = await orderDrink();
+//     console.log("Food is ready!");
+//     console.log(food);
+//     console.log("Drink is ready!");
+//     console.log(drink);
+// }
+
+// function cookFood() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve("Delicious food!");
+//         }, 2000);
+//     })
+// }
+
+// function orderDrink() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve("Refreshing drink!");
+//         }, 3000);
+//     });
+// }
+
+// orderFood();
+// orderDrink();
+
+
+// async function orderFood() {
+//     try {
+//         const food = await cookFood();
+//         console.log("Food is ready!");
+//         console.log(food);
+
+//         const drink = await orderDrink();
+//         console.log("Drink is ready!");
+//         console.log(drink);
+//     }
+//     catch (error) {
+//         console.log("Error:", error);
+//     }
+// }
+
+// function cookFood() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve("Delicious food!");
+//         }, 2000);
+//     });
+// }
+
+// function orderDrink() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             reject("Sorry, drink order failed!");
+//         }, 3000);
+//     });
+
+// }
+// orderFood();
+// orderDrink();
+
+
+
+// try {
+    
+// } catch (error) {
+    
+// }
+
+
